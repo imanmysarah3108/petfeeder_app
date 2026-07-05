@@ -1,4 +1,13 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Needed for every HTTP call to the ESP32 and Telegram. Debug builds get
+         this for free from the debug-only manifest, but a release APK (the
+         kind you'd actually install for a demo) does not — without this line,
+         /status and /feed silently fail with no network access on a release
+         build. -->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!-- For the pet photo picker's "take a photo" option (image_picker).
+         Gallery picking doesn't need a declared permission on modern Android. -->
+    <uses-permission android:name="android.permission.CAMERA"/>
     <application
         android:label="petfeeder_app"
         android:name="${applicationName}"

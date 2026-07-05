@@ -85,13 +85,17 @@ class HistoryBottomSheet extends StatelessWidget {
                         Container(
                           padding: const EdgeInsets.all(10),
                           decoration: BoxDecoration(
-                            color: isFirst ? Colors.orange.shade100 : Colors.grey.shade300,
+                            color: !item.success
+                                ? Colors.red.shade50
+                                : (isFirst ? Colors.orange.shade100 : Colors.grey.shade300),
                             shape: BoxShape.circle,
                           ),
                           child: Icon(
-                            Icons.restaurant,
+                            item.icon,
                             size: 18,
-                            color: isFirst ? AppTheme.primaryColor : Colors.grey.shade600,
+                            color: !item.success
+                                ? Colors.red.shade400
+                                : (isFirst ? AppTheme.primaryColor : Colors.grey.shade600),
                           ),
                         ),
                         const SizedBox(width: 16),
@@ -120,15 +124,22 @@ class HistoryBottomSheet extends StatelessWidget {
                           ),
                         ),
                         
-                        // Amount
-                        Text(
-                          "${item.amount}g",
-                          style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 16,
-                            color: Colors.grey.shade700,
+                        // Amount (dispenses) or a success/fail indicator (everything else)
+                        if (item.amount != null)
+                          Text(
+                            "${item.amount}g",
+                            style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 16,
+                              color: Colors.grey.shade700,
+                            ),
+                          )
+                        else
+                          Icon(
+                            item.success ? Icons.check_circle : Icons.cancel,
+                            size: 20,
+                            color: item.success ? Colors.green.shade400 : Colors.red.shade400,
                           ),
-                        ),
                       ],
                     ),
                   );
