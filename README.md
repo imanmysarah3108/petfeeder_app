@@ -8,6 +8,9 @@ An IoT-based pet feeder built around an ESP32 microcontroller, controllable and 
 | :---: | :---: | :---: |
 | <img width="300" alt="image" src="https://github.com/user-attachments/assets/514b1888-3c76-4658-9e0e-42c0dfb88ce1" /> | <img width="300" alt="image" src="https://github.com/user-attachments/assets/fd595505-a9f9-48ca-ae88-d4457b5ced08" /> | <img width="300" alt="image" src="https://github.com/user-attachments/assets/8903d4b5-45e7-461d-846d-4533594e7acf" /> |
 
+## Demo product
+![Youtube Smart Pet Feeder Demo](https://youtu.be/RJR3Aelb8gY?si=klo0W_3x2R3Sv7mN)
+
 ## Overview
 
 Manual pet feeding is easy to get wrong when an owner is busy, travelling, or away from home. This project automates it: the feeder dispenses food on a schedule or on manual command, detects when the pet actually shows up, and keeps the owner informed remotely — whether they're on the same Wi-Fi or on the other side of the world with just Telegram.
