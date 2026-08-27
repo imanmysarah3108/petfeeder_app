@@ -29,6 +29,6 @@ ESP32 DevKit V1 · MG90S servo motor · HC-SR04 ultrasonic sensor · passive buz
 Arduino IDE (C++) for the ESP32 firmware · Flutter (Android) for the mobile app · Telegram Bot API for remote commands and notifications · ThingSpeak for cloud data storage
 
 ## Circuit diagram
-<img width="300" alt="image" src="https://github.com/user-attachments/assets/9b1d0688-b864-4319-8afc-f1e4ad60d2b1" /> <img width="450" alt="image" src="https://github.com/user-attachments/assets/b3324da3-dcfc-4482-b67c-51270ea34bb5" />
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/9b1d0688-b864-4319-8afc-f1e4ad60d2b1" /> <img width="300" alt="image" src="https://github.com/user-attachments/assets/b3324da3-dcfc-4482-b67c-51270ea34bb5" />
 
 
