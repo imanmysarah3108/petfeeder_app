@@ -22,7 +22,7 @@ Manual pet feeding is easy to get wrong when an owner is busy, travelling, or aw
 
 ## Hardware
 
-ESP32 DevKit V1 · MG90S servo motor · HC-SR04 ultrasonic sensor · passive buzzer · 5 V power bank · ~500 g food container
+ESP32 DevKit V1 · MG90S servo motor · HC-SR04 ultrasonic sensor · passive buzzer · 5V power supply · ~500 g food container
 
 ## Software & cloud
 
@@ -30,5 +30,10 @@ Arduino IDE (C++) for the ESP32 firmware · Flutter (Android) for the mobile app
 
 ## Circuit diagram
 <img width="650" alt="image" src="https://github.com/user-attachments/assets/9b1d0688-b864-4319-8afc-f1e4ad60d2b1" /> <img width="300" alt="image" src="https://github.com/user-attachments/assets/b3324da3-dcfc-4482-b67c-51270ea34bb5" />
+
+## Product 
+<img width="650" alt="product" src="https://github.com/user-attachments/assets/74b9f5c2-bf8c-4cfb-8824-877f7f551a86" />
+
+
 
 
